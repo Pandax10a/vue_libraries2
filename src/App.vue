@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <all-users></all-users>
+    <login-form></login-form>
   </div>
 </template>
 
 <script>
 import AllUsers from '@/components/AllUsers.vue'
+import LoginForm from '@/components/LoginForm.vue'
 
 
 export default {
   name: 'App',
   components: {
-    AllUsers
+    AllUsers,
+    LoginForm
     
   }
 }
